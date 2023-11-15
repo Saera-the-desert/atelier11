@@ -8,13 +8,15 @@ public class Circle extends Shape{
 
     public Circle() { } 
 
-    public Circle(double radius) { //constructeurs :) si ca shie c la faute a ...
+    public Circle(double radius) { //constructeurs :) si ca shie c la faute a Victo
+        this.radius = radius;
 
     }
 
      public Circle(double radius, String isColor, Boolean isFilled ) {
 
         super( isColor, isFilled );
+        this.radius = radius;
     }
 
     public double getRadius() { //get method
