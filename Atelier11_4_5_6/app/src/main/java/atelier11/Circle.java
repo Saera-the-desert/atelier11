@@ -38,4 +38,10 @@ public class Circle extends Shape{
 
         return "radius of circle" + radius + ", " + super.toString();
     }
+
+    public static void main(String[] args){ //print btw ca fait radius 0.0 jsp pourquoi
+
+        Circle Circle = new Circle(5.0);
+        System.out.println(Circle);
+    }
 }
