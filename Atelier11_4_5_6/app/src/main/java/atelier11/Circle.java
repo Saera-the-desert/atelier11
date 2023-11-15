@@ -10,7 +10,7 @@ public class Circle extends Shape{
 
     public Circle(double radius) { //constructeurs :) si ca shie c la faute a ...
 
-     }
+    }
 
      public Circle(double radius, String isColor, Boolean isFilled ) {
 
@@ -32,5 +32,10 @@ public class Circle extends Shape{
     public double getPerimeter() {
         
         return Math.PI * 2 * radius;
+    }
+
+    public String toString() {
+
+        return "radius of circle" + radius + ", " + super.toString();
     }
 }
